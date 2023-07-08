@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 60px;
+  background: linear-gradient(45deg, #222222 20%, #8764da 33%, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0b2349;
+  display: table;
+  margin: 20px auto;
+
+  transition: all 0.5s ease;
+  transform: rotate(0deg);
+
+  animation: move 3s infinite linear;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap");
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ysabeau SC", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 30%, #000000 74%);
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background-color: #2d3436;
+  background-image: linear-gradient(
+    315deg,
+    #2d3436 20%,
+    #000000 74%
+  ); /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  /* background: linear-gradient(45deg, #222222 5%, #8764da 33%, #fff); */
+  background-color: white;
+  border-radius: 20px; /* закругления плашки */
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #8764da !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #8764da !important;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+  height: 300px !important;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.swiper-slide {
+  display: flex !important;
+  align-items: center;
+}

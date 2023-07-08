@@ -1,0 +1,16 @@
+.item {
+  width: 25%;
+  background-color: #222222;
+  color: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.item img {
+  width: 30px;
+  margin-right: 1rem;
+}

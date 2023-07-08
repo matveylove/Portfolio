@@ -1,0 +1,46 @@
+.lang {
+  margin-top: 3rem;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.langList {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+.mainTitle {
+  text-transform: uppercase;
+  font-size: 160px;
+  background: linear-gradient(45deg, #8764da 33%, #222222 66%, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0b2349;
+  display: table;
+  margin: 20px auto;
+
+  transition: all 0.5s ease;
+  transform: rotate(0deg);
+
+  animation: move 3s infinite linear;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,27 @@
+.fireworks img {
+  width: 30%;
+}
+.fireworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: #222222;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.05);
+}
+.btn:active {
+  filter: brightness(1.2);
+}

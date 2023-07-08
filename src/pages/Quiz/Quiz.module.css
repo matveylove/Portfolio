@@ -1,0 +1,10 @@
+.main {
+  max-width: 800px;
+  width: 100%;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  margin: 0 auto;
+}
